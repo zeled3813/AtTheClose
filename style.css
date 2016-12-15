@@ -1,14 +1,16 @@
-h{
-    
-    
-}
-
-p{
-    
+.header{
+    background-color: black;
+    height: 150px;
+    width: 1000px;
     
 }
 
-div{
+.text{
     
+    background-color: black;
+}
+
+.image{
+    background-color: black;
     
 }
