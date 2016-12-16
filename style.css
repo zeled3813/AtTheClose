@@ -11,27 +11,26 @@
 
 .hand .horror {
     display: inline-block;
-    position: relative;
-    
+    padding-bottom: 100px;
 }
 
 .hand .one {
-    position: absolute;
-    max-width: 900px;
+    position: relative;
+    width: 900px;
     font: cursive;
     font-size: 3.5em;
-    height: 800px;
-    bottom: 450px;
+    bottom: 1000px;
 }
-
 
 .image {
     display: inline-block;
-    margin: auto;
-    padding: 100px;
+    position:relative;
+    float:right;
+    right: 2000px;
+    
 }
 
 .hand {
-   
+    height: 900px;
     display: inline-block;
 }
