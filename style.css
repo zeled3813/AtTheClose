@@ -17,15 +17,16 @@
     left: 500px;
 }
 
-#1 {
+.hand #1 {
     position: absolute;
-    max-width: 400px;
+    max-width: 40px;
    
     font: cursive;
     font-size: 2em;
     
 }
-#2{
+
+.hand #2{}
 
 .image {
     background-color: black;
