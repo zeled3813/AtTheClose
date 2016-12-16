@@ -3,7 +3,10 @@
     height: 150px;
     width: 2000px;
     text-align: center;
-    
+    color: red;
+    z-index: -1;
+    font-size: 2.5em;
+    font-family: 'Nosifer', cursive;
 }
 
 .text{
