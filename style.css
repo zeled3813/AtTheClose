@@ -10,15 +10,16 @@
    
 }
 
-.text{
+.hand{
     
     background-color: black;
-    float:left;
-    display: inline-block;
+  
+    display: inline;
 }
 
 .image{
     background-color: black;
-    float: right;
-    display: inline-block;
+
+    display: inline;
 }
+ #text {}
