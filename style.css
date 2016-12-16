@@ -10,9 +10,9 @@
 }
 
 .hand .horror {
- 
     display: inline-block;
-    
+    position: relative;
+   
 }
 
 .image {
@@ -20,16 +20,24 @@
 }
 
 .hand .one {
-
-    max-width: 990px;
+    position: absolute;
+    max-width: 300px;
     font: cursive;
-    font-size: 2em;
-    height: 200px;
+    font-size: 2.25em;
+    height: 150px;
+   
+    
 }
 
 .hand .two {
-  
-    max-width: 990px;
+    position: absolute;
+    max-width: 850px;
     font: cursive;
-    font-size: 2em;
+    font-size: 2.25em;
+
+}
+
+.hand {
+    border: 5px solid black;
+    display: inline-block;
 }
