@@ -9,27 +9,26 @@
     font-family: 'Nosifer', cursive;
 }
 
-.horror {
+.hand #horror {
     position: relative;
-    background-color: black;
-    border: 7px solid green;
     display: inline-block;
-    left: 500px;
+}
+
+.image {
+    display: inline-block;
 }
 
 .hand #1 {
     position: absolute;
-    max-width: 40px;
-   
+    max-width: 20px;
     font: cursive;
     font-size: 2em;
-    
+    height:200px;
 }
 
-.hand #2{}
-
-.image {
-    background-color: black;
-    display: inline-block;
-    
+.hand #2 {
+    position: absolute;
+    max-width: 20px;
+    font: cursive;
+    font-size: 2em;
 }
