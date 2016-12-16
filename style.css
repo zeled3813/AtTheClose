@@ -1,7 +1,7 @@
 .header {
     background-color: black;
     height: 150px;
-    width: 2000px;
+   
     text-align: center;
     color: red;
     z-index: -1;
@@ -12,6 +12,7 @@
 .hand .horror {
     display: inline-block;
     padding-bottom: 100px;
+    width: 170%;
 }
 
 .hand .one {
@@ -26,11 +27,14 @@
     display: inline-block;
     position:relative;
     float:right;
-    right: 2000px;
+    right: 290px;
+    height: 150px;
+   
     
 }
 
 .hand {
-    height: 900px;
+   
     display: inline-block;
+    
 }
