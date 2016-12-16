@@ -9,18 +9,16 @@
     font-family: 'Nosifer', cursive;
 }
 
-.hand {
+.horror{
     position: relative;
     background-color: black;
     border: 7px solid green;
-    top: 500px;
+    
 }
 
 .image {
     background-color: black;
 }
 
-#text {
-    position: absolute;
-    
-}
+
+.hand .text{}
