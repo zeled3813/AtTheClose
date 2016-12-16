@@ -12,11 +12,6 @@
 .hand .horror {
     display: inline-block;
     position: relative;
-   
-}
-
-.image {
-    display: inline-block;
 }
 
 .hand .one {
@@ -25,19 +20,13 @@
     font: cursive;
     font-size: 2.25em;
     height: 150px;
-   
-    
-}
-
-.hand .two {
-    position: absolute;
-    max-width: 850px;
-    font: cursive;
-    font-size: 2.25em;
-
 }
 
 .hand {
-    border: 5px solid black;
+    border: 10px solid black;
+    display: inline-block;
+}
+
+.image {
     display: inline-block;
 }
