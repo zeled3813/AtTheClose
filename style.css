@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster|Nosifer');
+
 div{
   border: 1px solid black;
 }
@@ -26,6 +28,7 @@ div{
     font: cursive;
     font-size: 3.5em;
     bottom: 1000px;
+    font-family: 'Creepster',cursive;
 }
 
 .hand #haunted{
@@ -58,5 +61,5 @@ form{
 }
 
 #red{
-    color:red
+    color:red;
 }
