@@ -19,13 +19,9 @@ div{
 .hand .horror {
     display: inline-block;
     padding-bottom: 100px;
-    max-width: 100%;
+    max-width:100%;
     position:relative;
-    top:152px;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 100px;
-    padding: 10px 10px 10px 10px;
 }
 
 .hand .one {
@@ -34,8 +30,8 @@ div{
     width: 900px;
     font: cursive;
     font-size: 3.5em;
-    bottom: 900px;
     left:100px;
+    bottom:1000px;
     font-family: 'Creepster',cursive;
     
 }
@@ -50,10 +46,10 @@ div{
 }
 
 .hand {
-    display: inline-block;  
-    height:1000px;
+    display: block;
     position:relative;
-    padding-top:100px;
+    top:200px;
+    height:1000px;
 }
 
 .blue-button {
@@ -71,14 +67,15 @@ div{
     font-family:Arial;
     color:red;
     position:relative;
-    bottom:25px;
     left: 175px;
+    bottom:40px;
 }
 
 form{
     position:relative;
-    text-align:center;
-    bottom:875px;
+    float:right;
+    right:175px;
+    bottom:825px;
 }
 
 #red{
