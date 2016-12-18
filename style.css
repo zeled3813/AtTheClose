@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Creepster|Nosifer');
 
-div{
-  border: 1px solid black;
+body {
+    background-color: black;
 }
+
 .header {
     background-color: black;
     height: 150px;
@@ -10,74 +11,83 @@ div{
     text-align: center;
     color: red;
     z-index: 2;
-    display:block;
+    display: block;
     font-size: 2.5em;
     font-family: 'Nosifer', cursive;
-    position:fixed;
-}
-
-.hand .horror {
-    display: inline-block;
-    padding-bottom: 100px;
-    max-width:100%;
-    position:relative;
-    margin: auto;
-}
-
-.hand .one {
-    margin-right:auto;
-    position: relative;
-    width: 900px;
-    font: cursive;
-    font-size: 3.5em;
-    left:100px;
-    bottom:1000px;
-    font-family: 'Creepster',cursive;
-    
-}
-
-.hand #haunted{
-  display: inline-block;
-    position:relative;
-    float:right;
-    right: 20px;
-    height:200px;
-    bottom: 1500px;
+    position: fixed;
+    /*position:relative;*/
+    padding: 0,10px 10px 10px;
 }
 
 .hand {
     display: block;
-    position:relative;
-    top:200px;
-    height:1000px;
+    position: relative;
+    top: 250px;
+    margin: auto;
+    height: 1100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px, 20px, 20px, 20px;
+    background: white;
+    background-color:black;
 }
 
-.blue-button {
-    border-radius: 28px;
-    font-family: Arial;
-    color: #ffffff;
-    background-color:red;
-    font-size: 20px;
-    height: 50px;
+#horror {
+    display: inline-block;
+    padding-bottom: 100px;
+    width: 100%;
+    position: relative;
     margin: auto;
 }
 
-.ticket-number{
-    border-radius:20px;
-    font-family:Arial;
-    color:red;
-    position:relative;
-    left: 175px;
-    bottom:40px;
+.hand .one {
+    margin-right: auto;
+    position: relative;
+    font: cursive;
+    max-width: 1000px;
+    font-size: 3.5em;
+    bottom: 1000px;
+    font-family: 'Creepster', cursive;
 }
 
-form{
-    position:relative;
-    float:right;
-    right:175px;
-    bottom:825px;
+#haunted {
+    position: relative;
+    /*display:inline;*/
+    float: right;
+    height: 25%;
+    /*margin: auto;*/
+    width: 25%;
+    bottom:750px;
 }
 
-#red{
-    color:red;
+.purchase {
+    display: block;
+    border: 10px solid green;
+    position: relative;
+    float: right;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px, 20px, 20px, 20px;
+}
+
+.button {
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    background-color: red;
+    font-size: 20px;
+    height: 50px;
+    padding: 10px, 10px, 10px, 10px;
+}
+
+.ticket-number {
+    border-radius: 20px;
+    font-family: Arial;
+    color: red;
+    position: relative;
+}
+
+#red {
+    color: red;
 }
