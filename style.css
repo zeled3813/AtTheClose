@@ -50,14 +50,25 @@ div{
     border-radius: 28px;
     font-family: Arial;
     color: #ffffff;
+    background-color:red;
     font-size: 20px;
     margin: 20px;
     height: 50px;
 }
 
+.ticket-number{
+    border-radius:20px;
+    font-family:Arial;
+    color:red;
+    position:relative;
+    bottom:50px;
+    left: 200px
+}
+
 form{
     position:relative;
     text-align:center;
+    bottom:1000px;
 }
 
 #red{
