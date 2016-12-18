@@ -20,6 +20,8 @@ div{
     display: inline-block;
     padding-bottom: 100px;
     width: 100%;
+    position:relative;
+    top:152px;
 }
 
 .hand .one {
