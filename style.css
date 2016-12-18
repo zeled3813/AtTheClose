@@ -61,7 +61,6 @@ body {
 
 .purchase {
     display: block;
-    border: 10px solid green;
     position: relative;
     float: right;
     margin: auto;
