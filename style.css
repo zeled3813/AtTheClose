@@ -29,12 +29,13 @@ div{
 }
 
 .hand .one {
-    text-align:center;
+    margin-right:auto;
     position: relative;
     width: 900px;
     font: cursive;
     font-size: 3.5em;
-    bottom: 1000px;
+    bottom: 900px;
+    left:100px;
     font-family: 'Creepster',cursive;
     
 }
@@ -51,7 +52,6 @@ div{
 .hand {
     display: inline-block;  
     height:1000px;
-    
 }
 
 .blue-button {
@@ -60,12 +60,8 @@ div{
     color: #ffffff;
     background-color:red;
     font-size: 20px;
-    margin: 20px;
     height: 50px;
-       margin: auto;
-    margin-top: 10px;
-    margin-bottom: 100px;
-    padding: 10px 10px 10px 10px;
+    margin: auto;
 }
 
 .ticket-number{
@@ -74,14 +70,13 @@ div{
     color:red;
     position:relative;
     bottom:25px;
-    left: 200px;
-    
+    left: 175px;
 }
 
 form{
     position:relative;
     text-align:center;
-    bottom:1000px;
+    bottom:875px;
 }
 
 #red{
