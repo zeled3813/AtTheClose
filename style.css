@@ -3,6 +3,10 @@ body {
     background-color: black;
 }
 
+p{
+    color:black;
+}
+
 .header {
     background-color: black;
     height: 150px;
