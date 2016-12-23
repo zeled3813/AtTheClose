@@ -18,7 +18,6 @@ p{
     font-size: 2.5em;
     font-family: 'Nosifer', cursive;
     position: fixed;
-    /*position:relative;*/
     padding: 0, 10px 10px 10px;
 }
 
@@ -115,4 +114,10 @@ p{
     padding:10px,10px,10px,10px;
     top:200px;
     margin:auto;
+}
+.aud{
+    display:inline-block;
+    position: relative;
+    bottom: 900px;
+    
 }
